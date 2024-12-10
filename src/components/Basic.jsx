@@ -21,7 +21,7 @@ const Basic = () => {
       if (schoolCount < 50) {
         setSchoolCount((prevCount) => prevCount + 1);
       } else if (schoolCount >= 50) {
-        setSchoolCount(3000); // Change to '3000+' after reaching 300
+        setSchoolCount(1000); // Change to '3000+' after reaching 300
       }
     }, 10);
 
@@ -50,7 +50,7 @@ const Basic = () => {
             9V Class.
           </h1>
           <p className="text-purple-600 pt-4 sm:pt-6 font-medium text-start text-lg sm:text-xl lg:text-2xl">
-            There is about our school Akmal Pardayev
+            Created By Akmal Pardayev
           </p>
           <div className="pt-6 sm:pt-10">
             <a
